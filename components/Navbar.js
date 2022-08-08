@@ -12,7 +12,7 @@ function Navbar() {
 	}
     return (
         <Fragment>
-            <ul className="flex flex-col sm:flex-row justify-between px-12 items-center pt-4">
+            <ul className="flex flex-col sm:flex-row justify-between px-16 items-center pt-4">
                 <li className="flex gap-4 items-center">
                     <h1 className="text-6xl font-covesb "><Link href="/" >Texas Wake</Link></h1>
 					{
@@ -91,7 +91,7 @@ function Navbar() {
 				</div>
             </ul>
 			<div className="flex justify-center">
-				<hr className="border-[.5px] w-11/12 text-center"></hr>
+				<hr className="border-[.5px] w-11/12 text-center border-black"></hr>
 			</div>
         </Fragment>
     );
