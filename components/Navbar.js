@@ -13,20 +13,20 @@ function Navbar() {
     return (
         <Fragment>
             <ul className="flex flex-col sm:flex-row justify-between px-16 items-center pt-4">
-                <li className="flex gap-4 items-center">
+                <li className="flex items-center">
                     <h1 className="text-6xl font-covesb "><Link href="/" >Texas Wake</Link></h1>
 					{
 						open?
 						<button onClick={toggleOpen} className="sm:hidden">
 						<div className="mt-4">
-							<Image width={30} height={30} src='/menuu.png'></Image>
+							<Image width={40} height={40} src='/menuu.png'></Image>
 						</div>
 						</button>
 						:
 
 						<button onClick={toggleOpen} className="sm:hidden">
 							<div className="mt-4">
-								<Image width={30} height={30} src='/menu.png'></Image>
+								<Image width={40} height={40} src='/menu.png'></Image>
 							</div>
 						</button>
 					}
